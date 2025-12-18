@@ -48,35 +48,35 @@ function openEdu(school) {
 
   if (school === "tadika") {
     title.innerText = "Smart Reader Kids";
-    gallery.innerHTML = `<img src="tadika.jpg">`;
+    gallery.innerHTML = `<img src="tadika.JPG">`;
   }
 
   if (school === "skbsb") {
     title.innerText = "Sekolah Kebangsaan Bandar Sungai Buaya";
-    gallery.innerHTML = `<img src="darjah1.jpg">`;
+    gallery.innerHTML = `<img src="darjah1.JPG">`;
   }
 
   if (school === "star") {
     title.innerText = "Sekolah Tuanku Abdul Rahman (STAR), Ipoh";
     gallery.innerHTML = `
-      <img src="apon.jpg">
-      <img src="star1.jpg">
-      <img src="star2.jpg">
-      <img src="lxiibros.jpg">
-      <img src="star3.jpg">
-      <img src="star4.jpg">
-      <img src="star5.jpg">
-      <img src="star6.jpg">
+      <img src="apon.JPG">
+      <img src="star1.JPG">
+      <img src="star2.JPG">
+      <img src="lxiibros.JPG">
+      <img src="star3.JPG">
+      <img src="star4.JPG">
+      <img src="star5.JPG">
+      <img src="star6.JPG">
     `;
   }
 
   if (school === "uitm") {
     title.innerText = "UiTM";
     gallery.innerHTML = `
-      <img src="classphoto.jpg">
-      <img src="akmal.jpg">
-      <img src="alai.jpg">
-      <img src="ostad.jpg">
+      <img src="classphoto.JPG">
+      <img src="akmal.JPG">
+      <img src="alai.JPG">
+      <img src="ostad.JPG">
     `;
   }
 
@@ -199,6 +199,7 @@ if (heroPhoto) {
     heroPhoto.style.transform = `translate(${x}px, ${y}px)`;
   });
 }
+
 
 
 
